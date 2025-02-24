@@ -5,10 +5,19 @@ const TermsConditions = () => {
   return (
     <>
     <div className='terms-conditions-wrapper'>
-      <h1 className='terms-conditions-txt'>Terms & Conditions</h1>
+    <div style={{
+      width:"93%",
+    marginLeft:'auto'
+    }}>
+    <h1 className='terms-conditions-txt'>Terms & Conditions</h1>
+    </div>
+    
       
     </div>
-    <div className="terms-conditions-content">
+    <div className="terms-conditions-content" style={{
+      width:"80%",
+      marginInline:'auto'
+    }}>
         <div className="term-condition-div">
           <p className='terms-heading'>1. Acceptance of Terms</p>
           <p className='terms-para'>By accessing and using the App, you agree to comply with these Terms and Conditions and our Privacy Policy. If you do not agree with any part of these terms, you must discontinue use immediately.</p>

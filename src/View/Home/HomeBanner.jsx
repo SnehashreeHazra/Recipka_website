@@ -1,6 +1,9 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import './Home.css'
 const HomeBanner = () => {
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:'smooth'})
+     },[])
   return (
     <div className="home-wrapper" >
     <div className='home_banner_content_div'>

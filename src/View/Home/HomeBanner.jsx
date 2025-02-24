@@ -1,10 +1,14 @@
 import React from 'react'
-
+import './Home.css'
 const HomeBanner = () => {
   return (
-    <div className="header-wrapper">
-    <div className='home-banner-wrapper'>
-      <h1 style={{color:"#FFF"}}>It's not just a Food <br /> It's a Experience</h1>
+    <div className="home-wrapper" >
+    <div className='home_banner_content_div'>
+      <h1>Lorem Ipsum Lorem</h1>
+      <h3>Lorem IPsum lorem Ipsum Lorem Ipsum Lorem IPsum lorem Ipsum Lorem Ipsum<br/>
+      Lorem IPsum lorem Ipsum Lorem Ipsum Lorem Ipsum<br/>
+      Lorem IPsum<br/>
+      </h3>
     </div>
     </div>
   )

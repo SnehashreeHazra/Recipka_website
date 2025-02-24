@@ -28,7 +28,7 @@
   
 }  */
 .home_banner_content_div h1{
-    font-family: "IBM Plex Sans Condensed", serif !important;
+    font-family: ibm-plex-sans-condensed !important;
     font-style: italic;
     color: white;
     z-index: 9999;
@@ -36,26 +36,30 @@
     text-align: center;
 }
 .home_banner_content_div h3{
-    font-family: "IBM Plex Sans Condensed", serif !important;
+    font-family: ibm-plex-sans-condensed !important;
+    /* font-family: "IBM Plex Sans Condensed", serif !important; */
     font-style: italic;
     color: white;
     z-index: 9999;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-    font-weight: 400;
+    font-weight: 300;
+    margin-top: 0px
 }
 .features_wrapper{
-    height: 100vh;
+    
     background:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url(../../assets/barley-soup-with-carrots-tomato-celery-meat-dark-background-top-view.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 120px;
+    padding-top: 100px;
 }
 .features_header{
     text-align: center;
-    padding-top: 50px;
-    font-family: "IBM Plex Sans Condensed", serif !important;
+    padding-top: 0px;
+    font-family: ibm-plex-sans-condensed !important;
     font-style: italic;
     font-size: 40px;
     color: white;
@@ -73,12 +77,12 @@
     width: 100%;
     max-width: 31%;
     min-width: 31%;
-    height: 400px;
     backdrop-filter: blur(10px);
     border: 1px solid white;
     border-radius: 15px;
-    padding: 20px;
-    background-color: rgba(160, 160, 160, 0.405);
+    padding: 20px 20px 35px 20px;
+    background-color: rgba(112, 112, 112, 0.405);
+    transition: 0.3s linear all;
 }
 .feature_card_img{
     width: 100%;
@@ -87,16 +91,211 @@
     overflow: hidden;
     transition: 0.2s linear all;
 } 
-.feature_card_img:hover img{
-    scale: 1.2;
+.feature_card_div:hover img{
+    scale: 1.1;
 }
 .feature_card_div:hover{
-    box-shadow: 0px 0px 10px rgb(142, 142, 142);
+    box-shadow: 0px 0px 20px rgb(142, 142, 142);
 }
 .feature_card_img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
-    transition: 0.2s linear all;
+    transition: 0.3s linear all;
+}
+.feature_card_div h3{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-family: ibm-plex-sans-condensed !important;
+    font-style: italic;
+}
+.feature_card_div p{
+    width: 80%;
+    margin-inline: auto;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15px;
+    font-family: ibm-plex-sans-condensed !important;
+    font-weight: 400;
+    font-style: italic;
+}
+.home_about_wrapper {
+   
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url(../../assets/farfalle-pasta-durum-wheat-with-baked-meatballs-chicken-fillet-tomato-sauce-salad-bowl.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+}
+.home_about_main_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    min-width: 80%;
+    margin-inline: auto;
+    margin-top: 50px;
+    column-gap: 20px;
+}
+.left_about_img_div{
+    width: 100%;
+    max-width: 42%;
+    min-width: 42%;
+    height: 470px;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgba(74, 74, 74, 0.41);
+    /* rgba(160, 160, 160, 0.405); */
+    transition: 0.3s linear all;
+    border-radius: 15px;
+    box-shadow:    0px 0px 20px rgba(63, 63, 63, 0.405);
+     /* 0px 0px 20px rgba(153, 153, 153, 0.405) ; */
+}
+.left_about_img_div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.right_about_content_div{
+    width: 100%;
+    max-width: 48%;
+    min-width: 48%;
+}
+.right_about_content h1{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-family: ibm-plex-sans-condensed !important;
+    font-style: italic;
+}
+.right_about_content p{
+    color: white;
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: ibm-plex-sans-condensed !important;
+    font-style: italic;
+}
+.home_testimonial_wrapper{
+    
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url(../../assets/d8fa4d28ff39865374e0d46f416d4a9a.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+    padding-bottom: 130px;
+}
+.testimonial_wrapper{
+    width: 100%;
+    max-width: 80%;
+    min-width: 80%;
+    margin-inline: auto;
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+   
+    
+}
+.testimonial_wrapper .slick-prev:before{
+    font-size: 40px;
+}
+.testimonial_wrapper .slick-next:before{
+    font-size: 40px;
+}
+.testimonial_div{
+    width: 100%;
+    max-width: 85%;
+    min-width: 85%;
+    border-radius: 15px;
+    background-color: rgba(99, 99, 99, 0.615);
+    /* rgba(160, 160, 160, 0.405); */
+    transition: 0.3s linear all;
+    border-radius: 15px;
+    box-shadow:    0px 0px 20px rgba(63, 63, 63, 0.405);
+    border: 1px solid #ccc;
+    padding: 10px 10px 30px 10px;
+    margin-left: 20px;
+}
+.testimonial_div p{
+    font-size: 15px;
+    font-family: "IBM Plex Sans Condensed", serif !important;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+}
+.testimonial_div  h2{
+    font-size: 15px;
+    font-family: "IBM Plex Sans Condensed", serif !important;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    margin-top: 10px;
+    margin-top: 25px;
+}
+.client_img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+.client_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   object-position: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.home_top_recipes_wrapper{
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url(../../assets/2c8a0d96b0f5f2a7be530de58aea1074.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.top_videos_wrapper{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ column-gap: 25px;
+ row-gap: 25px;
+ width: 100%;
+ max-width: 80%;
+ min-width: 80%;
+ margin-inline: auto;
+ margin-top: 50px;
+}
+.top_videos{
+    width: 100%;
+    max-width: 28%;
+    min-width: 28%;
+    border-radius: 15px;
+    background-color: rgba(65, 65, 65, 0.615);
+    /* rgba(160, 160, 160, 0.405); */
+    transition: 0.3s linear all;
+    border-radius: 15px;
+    box-shadow:    0px 0px 20px rgba(80, 79, 79, 0.405);
+    padding: 15px;
+    
+    border: 1px solid rgb(113, 113, 113);  
+}
+.top_videos video{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+    height: 350px;
 }

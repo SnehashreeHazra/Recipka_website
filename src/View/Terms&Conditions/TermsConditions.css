@@ -1,0 +1,26 @@
+.terms-conditions-wrapper{
+  padding: 70px;
+  height: 30vh;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url('../../assets/top-view-meat-sauce-soup-with-greens-potatoes-dark-floor.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.terms-conditions-content{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.terms-conditions-txt{
+  padding-top: 30px;
+  color: #FFF;
+}
+
+.terms-heading{
+  font-weight: 600;
+}
+.terms-para{
+  color: #777676;
+  font-size: 13px;
+}

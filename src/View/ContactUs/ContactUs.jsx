@@ -1,15 +1,22 @@
 import React from 'react'
 import ContactUsForm from './ContactUsForm'
 import ContactUsSocial from './ContactUsSocial'
+import './ContactUs.css'
 
 const ContactUs = () => {
   return (
     <div className='contact-us-wrapper'>
-      <h2>Let's Start a Conversation</h2>
+    <div className="contact-us-baner">
+      <h2 className='contact-us-txt'>Contact Us</h2>
+      <p className='contact-us-to-home-link'>Contact Us <i class="ri-arrow-right-s-line"></i> Home</p>
+    </div>
+    <div className="contact-us-form-container">
+      <h2 className='start-a-conversation'>Let's Start a Conversation</h2>
       <div className="contact-us-container">
         <ContactUsSocial />
         <ContactUsForm />
       </div>
+    </div>
     </div>
   )
 }

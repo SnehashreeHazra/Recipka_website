@@ -3,18 +3,184 @@
   max-width: 80%;
   min-width: 80%;
   display: flex;
+  margin: 0 auto;
+  background-color: #fafafa50 !important;
+  /* border-radius: 15px; */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .contact-us-form-wrapper{
   width: 100%;
   max-width: 50%;
   min-width: 50%;
+  background: none;
+  /* border: 1px solid #D96937; */
+}
+.contact-us-social-container{
+  width: 100%;
+  max-width: 80%;
+  min-width: 80%;
+  margin: 0 auto;
 }
 .contact-us-social-wrapper{
   width: 100%;
   max-width: 50%;
   min-width: 50%;
+  /* padding: 30px 0px; */
+  padding: 80px 0px;
+  background: transparent;
+  border-radius: 15px;
 }
-.address-div{
+.address-div, .phone-div, .mobile-div, .website-div{
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
+}
+.contact-us-baner{
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url("../../assets/spicy-tomato-soup-with-meatballs-pasta-vegetables-healthy-dinner.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  color: #FFF;
+  justify-content: center;
+  align-items: center ;
+}
+.contact-us-form-container{
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url('../../assets/b224bae0222627f98fb20ae546fe9c85.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.start-a-conversation{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #FFF;
+}
+/* .contact-us-wrapper{
+  padding: 50px 20px;
+} */
+ .contact-us-txt{
+  color: #FFF;
+  font-size: 35px;
+ }
+ .contact-us-to-home-link{
+  cursor: pointer;
+ }
+.location-logo{
+  background-color: #FFF;
+  border-radius: 50%;
+  color: #333;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-us-div{
+  margin-top: 20px;
+  color: #FFF;
+}
+.follow-us-txt{
+  margin-bottom: 8px;
+  /* color: #333; */
+  font-weight: 600;
+}
+.icons-div i{
+  /* color: #333; */
+  font-weight: 600;
+  cursor: pointer;
+}
+.address-content{
+  padding-left: 10px;
+}
+.small-txt{
+  color: #c0c0c0;
+  font-size: 12px;
+}
+.add-text{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 15px;
+}
+.icons-div{
+  display: flex;
+  column-gap: 10px;
+}
+.send-msg-txt{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #FFF;
+}
+.contact-us-form-container{
+  /* background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+  /* width: 100%;
+  max-width: 70%;
+  min-width: 70%; */
+  padding: 20px;
+  /* border-radius: 10px; */
+}
+/* Contact Form Styling */
+/* .contact-us-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+} */
+
+.form-row {
+  /* width: 100%; */
+  display: flex;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #c0c0c0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: transparent;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.send-msg-btn {
+  /* width: 100%; */
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  background: #D96937;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }

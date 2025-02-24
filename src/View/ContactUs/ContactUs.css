@@ -8,6 +8,7 @@
   /* border-radius: 15px; */
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+ 
 }
 .contact-us-form-wrapper{
   width: 100%;
@@ -37,8 +38,8 @@
   margin-bottom: 15px;
 }
 .contact-us-baner{
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url("../../assets/spicy-tomato-soup-with-meatballs-pasta-vegetables-healthy-dinner.jpg");
-  height: 90vh;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ), url(../../assets/spicy-tomato-soup-with-meatballs-pasta-vegetables-healthy-dinner.jpg);
+  height: 100vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -54,11 +55,12 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  padding: 100px 20px;
 }
 .start-a-conversation{
   text-align: center;
   margin-bottom: 30px;
-  margin-top: 30px;
+
   color: #FFF;
 }
 /* .contact-us-wrapper{
@@ -66,10 +68,14 @@
 } */
  .contact-us-txt{
   color: #FFF;
-  font-size: 35px;
+  font-size: 70px;
+  font-family: ibm-plex-sans-condensed !important;
+  font-style: italic;
  }
  .contact-us-to-home-link{
   cursor: pointer;
+  font-family: ibm-plex-sans-condensed !important;
+  font-style: italic;
  }
 .location-logo{
   background-color: #FFF;
@@ -123,7 +129,6 @@
   /* width: 100%;
   max-width: 70%;
   min-width: 70%; */
-  padding: 20px;
   /* border-radius: 10px; */
 }
 /* Contact Form Styling */
@@ -164,6 +169,7 @@
   border-radius: 5px;
   font-size: 16px;
   background: transparent;
+  color: white;
 }
 
 .form-group textarea {
@@ -178,9 +184,14 @@
   font-size: 13px;
   font-weight: 500;
   color: #fff;
-  background: #D96937;
-  border: none;
+  border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+}
+.send-msg-btn:hover{
+  background-color: white;
+  color: black;
+  
 }

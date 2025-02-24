@@ -1,0 +1,20 @@
+.contact-us-container{
+  width: 100%;
+  max-width: 80%;
+  min-width: 80%;
+  display: flex;
+}
+.contact-us-form-wrapper{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.contact-us-social-wrapper{
+  width: 100%;
+  max-width: 50%;
+  min-width: 50%;
+}
+.address-div{
+  display: flex;
+  align-items: center;
+}

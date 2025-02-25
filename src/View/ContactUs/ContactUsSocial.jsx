@@ -5,6 +5,8 @@ const ContactUsSocial = () => {
     <div className='contact-us-social-wrapper'>
     <div className="contact-us-social-container">
 
+      <div className="address-phone-mobile-website-wrapper">
+
       <div className="address-div">
       <div className="location-logo"><i class="ri-map-pin-line"></i></div>      
       <div className="address-content">
@@ -39,6 +41,7 @@ const ContactUsSocial = () => {
       <div className="address-content">
         <p className='add-text'>WEBSITE</p>
         <p className='small-txt'>www.demo.com</p>
+      </div>
       </div>
       </div>
       <div className="follow-us-div">

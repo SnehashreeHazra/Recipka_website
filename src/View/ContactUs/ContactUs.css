@@ -193,5 +193,52 @@
 .send-msg-btn:hover{
   background-color: white;
   color: black;
+}
+
+@media (max-width:999px){
+  .contact-us-container{
+    flex-wrap: wrap;
+  }
+  .contact-us-social-wrapper{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .contact-us-form-wrapper{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .contact-us-social-container{
+    width: 100%;
+    max-width: 90%;
+    min-width: 90%;
+  }
+  .address-phone-mobile-website-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    /* column-gap: 10px; */
+  }
+  .address-div, .phone-div, .mobile-div, .website-div{
+    width: 100%;
+    max-width: 25%;
+    min-width: 25%;
+  }
   
+  .follow-us-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+@media (max-width:900px){
+  .address-div, .phone-div, .mobile-div, .website-div{
+    width: 100%;
+    max-width: 50%;
+    min-width: 50%;
+  }
+
 }

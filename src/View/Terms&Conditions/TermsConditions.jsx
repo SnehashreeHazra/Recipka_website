@@ -5,9 +5,9 @@ const TermsConditions = () => {
   return (
     <>
     <div className='terms-conditions-wrapper'>
-    <div style={{
+    <div className='terms-conditions-txt-wrapper' style={{
       width:"93%",
-    marginLeft:'auto'
+    
     }}>
     <h1 className='terms-conditions-txt'>Terms & Conditions</h1>
     </div>

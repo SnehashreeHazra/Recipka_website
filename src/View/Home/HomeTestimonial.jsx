@@ -13,6 +13,32 @@ const HomeTestimonial = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1099,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 610,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              
+            }
+          },
+          {
+            breakpoint: 499,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
       };
 
   return (

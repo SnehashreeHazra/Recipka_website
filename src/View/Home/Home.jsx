@@ -5,7 +5,7 @@ import HomeFeatures from './HomeFeatures'
 import HomeAbout from './HomeAbout'
 import HomeTestimonial from './HomeTestimonial'
 import HomeTopRecipes from './HomeTopRecipes'
-
+import DownloadApp from './DownloadApp'
 
 const Home = () => {
 
@@ -14,6 +14,7 @@ const Home = () => {
      <HomeBanner/>
      <HomeAbout/>
      <HomeFeatures/>
+    <DownloadApp/>
      <HomeTestimonial/>
      <HomeTopRecipes/>
      

@@ -16,7 +16,8 @@ const TermsConditions = () => {
     </div>
     <div className="terms-conditions-content" style={{
       width:"80%",
-      marginInline:'auto'
+      marginInline:'auto',
+      paddingBottom:'50px'
     }}>
         <div className="term-condition-div">
           <p className='terms-heading'>1. Acceptance of Terms</p>

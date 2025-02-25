@@ -299,3 +299,65 @@
     border-radius: 15px;
     height: 350px;
 }
+.download_app_wrapper{
+    height: 120vh;
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url(../../assets/healthy-fresh-organic-vegetables-versus-junk-food-kitchen-work.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+.download_content_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 80%;
+    min-width: 80%;
+    margin-inline: auto;
+}
+.left_download_section{
+    width: 100%;
+    max-width: 40%;
+    min-width: 40%;
+    height: 100%;
+    background-color: aqua;
+
+}
+.right_download_section{
+    width: 100%;
+    max-width: 60%;
+    min-width: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.phone_background_circle{
+    width: 100%;
+    max-width: 500px;
+    min-width: 500px;
+    height: 500px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: rgba(99, 99, 99, 0.615);
+    /* rgba(160, 160, 160, 0.405); */
+    transition: 0.3s linear all;
+    box-shadow:    0px 0px 20px rgba(63, 63, 63, 0.405);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 7;
+}
+.phone_div{
+    width: 100%;
+    max-width: 45%;
+    min-width: 45%;
+    height: 600px;
+    background-color: white;
+    z-index: 99;
+    border: 8px solid black;
+    border-radius: 50px;
+}

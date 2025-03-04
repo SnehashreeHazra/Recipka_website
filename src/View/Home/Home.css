@@ -300,7 +300,7 @@
     height: 350px;
 }
 .download_app_wrapper{
-    background:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url(../../assets/healthy-fresh-organic-vegetables-versus-junk-food-kitchen-work.jpg) ;
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3) ),url('../../assets/healthy-fresh-organic-vegetables-versus-junk-food-kitchen-work (1).jpg') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -637,3 +637,29 @@
       display: none;
     }
 }
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 0 0 #fff;
+    animation: l2 1.5s infinite linear;
+    position: relative;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: 0 0 0 0 #fff;
+    animation: inherit;
+    animation-delay: -0.5s;
+  }
+  .loader:after {
+    animation-delay: -1s;
+  }
+  @keyframes l2 {
+      100% {box-shadow: 0 0 0 40px #ffffff4d}
+  }

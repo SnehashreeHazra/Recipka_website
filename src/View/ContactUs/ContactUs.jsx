@@ -2,10 +2,14 @@ import React from 'react'
 import ContactUsForm from './ContactUsForm'
 import ContactUsSocial from './ContactUsSocial'
 import './ContactUs.css'
+import Footer from '../../Layout/Footer'
+import SmoothScroll from '../Home/SmoothScroll'
 
 const ContactUs = () => {
   return (
-    <div className='contact-us-wrapper'>
+    <>
+<SmoothScroll>
+<div className='contact-us-wrapper'>
     <div className="contact-us-baner">
       <h2 className='contact-us-txt'>Contact Us</h2>
       <p className='contact-us-to-home-link'>Contact Us <i class="ri-arrow-right-s-line"></i> Home</p>
@@ -18,6 +22,12 @@ const ContactUs = () => {
       </div>
     </div>
     </div>
+    <Footer/>
+</SmoothScroll>
+ 
+    
+  
+    </>
   )
 }
 

@@ -1,9 +1,12 @@
 import React from 'react'
 import './TermsConditions.css'
+import SmoothScroll from '../Home/SmoothScroll'
+import Footer from '../../Layout/Footer'
 
 const TermsConditions = () => {
   return (
     <>
+    <SmoothScroll>
     <div className='terms-conditions-wrapper'>
     <div className='terms-conditions-txt-wrapper' style={{
       width:"93%",
@@ -111,6 +114,9 @@ Any disputes shall be resolved in the courts of West Bengal.
           <p className='terms-para'>For any questions regarding these Terms, please contact us at support@recipka.com.</p> 
         </div>
       </div>
+      <Footer/>
+    </SmoothScroll>
+  
     </>
 
   )
